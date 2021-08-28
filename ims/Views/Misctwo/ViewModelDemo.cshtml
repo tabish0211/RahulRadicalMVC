@@ -1,0 +1,25 @@
+﻿@model ims.Models.VMStuAdd
+
+@{
+    ViewBag.Title = "ViewModelDemo";
+}
+
+<h2>ViewModelDemo</h2>
+
+<table>
+    <tr>
+        <td>
+            @Model.student.Id
+        </td>
+        <td>
+            @Model.student.Name
+        </td>
+        <td>
+            @Model.address.City
+        </td>
+        <td>
+            @Model.address.State
+        </td>
+    </tr>
+</table>
+

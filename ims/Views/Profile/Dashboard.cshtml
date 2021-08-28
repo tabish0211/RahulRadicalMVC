@@ -1,0 +1,19 @@
+﻿@model ims.Models.Student
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<h2>Welcome @TempData["key"]</h2>
+
+<table>
+    <tr>
+        <td>@Html.ActionLink("Edit Profile", "Edit", "Profile")</td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Routine", "Routine", "Profile")</td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Attendance", "Attendance", "Profile")</td>
+    </tr>
+</table>

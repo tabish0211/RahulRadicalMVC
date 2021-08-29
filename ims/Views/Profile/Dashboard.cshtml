@@ -4,11 +4,11 @@
     ViewBag.Title = "Dashboard";
 }
 
-<h2>Welcome @TempData["key"]</h2>
+<h2>Welcome @Model.Id</h2>
 
 <table>
     <tr>
-        <td>@Html.ActionLink("Edit Profile", "Edit", "Profile")</td>
+        <td>@Html.ActionLink("Edit Profile", "Edit", new { id = Model.Id })</td>
     </tr>
     <tr>
         <td>@Html.ActionLink("Routine", "Routine", "Profile")</td>

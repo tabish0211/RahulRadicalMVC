@@ -23,3 +23,10 @@ D:\Madiha\ims\ims\bin\Newtonsoft.Json.xml
 D:\Madiha\ims\ims\bin\Antlr3.Runtime.pdb
 D:\Madiha\ims\ims\obj\Debug\ims.dll
 D:\Madiha\ims\ims\obj\Debug\ims.pdb
+D:\Madiha\ims\ims\bin\EntityFramework.dll
+D:\Madiha\ims\ims\bin\EntityFramework.SqlServer.dll
+D:\Madiha\ims\ims\bin\EntityFramework.xml
+D:\Madiha\ims\ims\bin\EntityFramework.SqlServer.xml
+D:\Madiha\ims\ims\obj\Debug\ims.csprojResolveAssemblyReference.cache
+D:\Madiha\ims\ims\obj\Debug\ims.Migrations.CreateStudentsTable.resources
+D:\Madiha\ims\ims\obj\Debug\ims.csproj.GenerateResource.Cache

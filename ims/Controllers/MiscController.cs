@@ -69,7 +69,14 @@ namespace ims.Controllers
             return new HttpNotFoundResult();
         }
 
+        // Misc/Contact
+        public ActionResult Contact()
+        {
+            string msg = null;
+             // this will throw an exception
 
+            return Content(msg.Length.ToString());
+        }
 
 	}
 }

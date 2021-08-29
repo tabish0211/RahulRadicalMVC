@@ -1,0 +1,29 @@
+﻿@model ims.Models.Student
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="~/Profile/Update" method="post">
+    <table>
+        <tr>
+            <td>Id </td>
+            <td><input type="text" disabled="disabled" value="@Model.Id"></td>
+            <td><input type="hidden" name="Id" value="@Model.Id"></td>
+        </tr>
+
+        <tr>
+            <td>Name </td>
+            <td><input type="text" name="Name" value="@Model.Name"></td>
+        </tr>
+
+        <tr>
+
+            <td><input type="submit" value="Save"></td>
+        </tr>
+    </table>
+</form>
+
+

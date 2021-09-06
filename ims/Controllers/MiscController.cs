@@ -70,13 +70,15 @@ namespace ims.Controllers
         }
 
         // Misc/Contact
+        [HandleError]
         public ActionResult Contact()
         {
             string msg = null;
-             // this will throw an exception
+            ViewBag.Message = msg.Length;
 
-            return Content(msg.Length.ToString());
+            return View();
         }
+        
 
 	}
 }

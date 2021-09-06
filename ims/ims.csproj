@@ -122,6 +122,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HTMLHelperController.cs" />
     <Compile Include="Controllers\MiscController.cs" />
     <Compile Include="Controllers\MisctwoController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
@@ -134,6 +135,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Gender.cs" />
     <Compile Include="Models\ImsCntxt.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\VMStuAdd.cs" />
@@ -177,6 +179,7 @@
     <Content Include="Views\Misc\SessionDemo.cshtml" />
     <Content Include="Views\Misctwo\ViewModelDemo.cshtml" />
     <Content Include="Views\Profile\Edit.cshtml" />
+    <Content Include="Views\HTMLHelper\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202108290423410_CreateStudentsTable.resx">

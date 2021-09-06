@@ -1,0 +1,36 @@
+﻿@model ims.Models.Student
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@*<input type="text" name="Name" value="" />*@
+
+@*@Html.LabelFor(m => m.UserName) : @Html.TextBoxFor(x => x.UserName)
+
+
+@Html.DropDownListFor(m => m.Gender,
+            new SelectList(Enum.GetValues(typeof(ims.Models.Gender))),
+            "Select Gender")
+
+@Html.PasswordFor(x => x.Password)
+
+@Html.EditorFor(x => x.Name);
+@Html.EditorFor(x => x.Id);*@
+
+@*<form action="~/HTMlHelper/SaveStudent" method="post">
+    @Html.TextBoxFor(x => x.Name)
+
+    <input type="submit" value="Save" />
+    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+</form>*@
+
+<form action="~/HTMlHelper/SaveStudent" method="post">
+    @Html.EditorFor(x => x.Name)
+    @Html.EditorFor(x => x.Age)
+
+    <input type="submit" value="Save" />
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+    
+</form>
